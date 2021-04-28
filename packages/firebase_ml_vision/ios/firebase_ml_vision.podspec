@@ -34,10 +34,7 @@ An SDK that brings Google's machine learning expertise to Android and iOS apps i
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'firebase_core'
-  s.dependency 'GoogleMLKit/BarcodeScanning'
   s.dependency 'GoogleMLKit/FaceDetection'
-  s.dependency 'GoogleMLKit/ImageLabeling'
-  s.dependency 'GoogleMLKit/TextRecognition'
   s.ios.deployment_target = '11.0'
   s.static_framework = true
 
